@@ -13,7 +13,7 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
     @Test
-    public void remain() {
+    public void amountEqualToBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
         int expected = 0;
